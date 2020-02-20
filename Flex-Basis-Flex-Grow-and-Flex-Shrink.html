@@ -3,7 +3,7 @@
 
 <head>
     <meta charset='UTF-8'>
-    <title>Flex-Basis</title>
+    <title>Flex-Basis-Flex-Grow-and-Flex-Shrink</title>
     <style>
         body {
             margin: 0;
@@ -37,17 +37,36 @@
             align-items: center;
         }
 
+        /*.block1 {
+            flex-grow: 4;
+
+        }
+
+        .block2 {
+            flex-grow: 1;
+        }
+
+        .block3 {
+            flex-grow: 2;
+        }
+        */
+
         .block1 {
             flex-basis: 400px;
+            flex-shrink: 4;
 
         }
 
         .block2 {
             flex-basis: 100px;
+            flex-shrink: 1;
+
         }
 
         .block3 {
             flex-basis: 200px;
+            flex-shrink: 1;
+
         }
     </style>
 </head>
